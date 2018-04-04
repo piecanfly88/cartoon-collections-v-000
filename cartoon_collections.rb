@@ -3,7 +3,7 @@ def roll_call_dwarves(dwarves)
 end
 require 'pry'
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.map {|each_call| each_call.titleize + "!"}
+  planeteer_calls.map {|each_call| each_call.capitalize + "!"}
 end
 binding.pry
 
